@@ -36,13 +36,13 @@ export default function App() {
   };
   return (
     <View style={styles.container}>
-      <Text>
+      <Text style={{ textAlign: "center" }}>
         The below button should create a recurring event in the device's
         calendar.
       </Text>
       <Button title="Create" onPress={onClick} />
 
-      <Text>
+      <Text style={{ textAlign: "center" }}>
         After clicking, please go to the calendar app and note that the event is
         not recurring.
       </Text>
